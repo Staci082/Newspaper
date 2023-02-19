@@ -42,7 +42,7 @@
         font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
           "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
         color: white;
-        box-shadow: 30px 30px 30px black;
+        text-shadow: black 2px 2px 2px;
         text-align: center;
       }
       .news1 {
@@ -50,14 +50,26 @@
         grid-row: 2/5;
         font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
           "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+          color: white;
+        text-shadow: black 2px 2px 2px;
         text-align: center;
         background: green;
       }
+      #html-pic {
+position: absolute;
+display: flex;
+align-items: end;
+        height: 30vh;
+        width: 50vw;
+
+      }
       .news2 {
-        grid-columnr: 2/3;
+        grid-column: 2/3;
         grid-row: 5/7;
         font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
           "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+          color: white;
+        text-shadow: black 2px 2px 2px;
         text-align: center;
         background: lime;
       }
@@ -66,6 +78,8 @@
         grid-row: 5/7;
         font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
           "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+          color: white;
+        text-shadow: black 2px 2px 2px;
         text-align: center;
         background: greenyellow;
       }
@@ -74,6 +88,8 @@
         grid-row: 2/7;
         font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
           "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+          color: white;
+        text-shadow: black 2px 2px 2px;
         text-align: center;
         background: rgb(64, 230, 64);
       }
@@ -118,21 +134,39 @@
     </div>
       <div class="latest-news">
         <h2>Latest News</h2>
+        
+          <li style="list-style:none;">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+         
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </li>
+          
+      
       </div>
       <div class="news1">
-        <h2>News</h2>
+        <p>HTML Not Actually A Programming Language - World Is Shocked</p>
+        <img id="html-pic" src= "https://kinsta.com/nl/wp-content/uploads/sites/7/2021/12/leren-html.png" alt="HTML">
       </div>
+      
       <div class="news2">
         <h2>News</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <div class="news3">
         <h2>News</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <div class="news4">
         <h2>News</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <div class="reclame">
-        <h2>Reclame</h2>
+        <h2 id="dolce">Reclame</h2>
+        <h2 id="lasagna" </h2>
       </div>
       <div class="footer">
         <h2>Footer</h2>
