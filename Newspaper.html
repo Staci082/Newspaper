@@ -5,101 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      main {
-        height: 100vh;
-        width: 100vw;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        grid-template-areas: "header latest-news reclame news1 news2 news3 footer";
-      }
-      body {
-        background: rgb(223, 218, 218);
-      }
-      .header {
-        grid-column: 1/7;
-        grid-row: 1/2;
-        background: ;
-        border-bottom: solid 4px white;
-     
-      }
-      h1{
-        text-align: center;
-        font-family: Impact;
-        font-size: 5vh;
-      }
-      
-      .menu {
-        position: absolute bottom;
-        display: flex;
-        align-items: flex-end;
-        justify-content: start;;
-      }
-      .searchbar{
-        display: flex;
-        justify-content: end;
-      }
-
-      .latest-news {
-        grid-column: 2/3;
-        grid-row: 2/7;
-        font-size: 1rem;
-      }
-      #latest-news-title {
-        font-family: impact;
-        text-align: center;
-        font-size: 2rem;
-      }
-      .news1 {
-        grid-column: 3/5;
-        grid-row: 2/5;
-      }
-      .news2 {
-        grid-column: 3/4;
-        grid-row: 5/7;
-      }
-      .news3 {
-        grid-column: 4/5;
-        grid-row: 5/7;
-      }
-      .news4 {
-        grid-column: 5/6;
-        grid-row: 2/7;
-      }
-      #text0, #text1, #text2, #text3, #text4 {
-        font-family: Verdana;
-        font-size: 1rem;
-        text-align: center;
-      }
-      
-      .latest-news, .news1, .news2, .news3, .news4, .reclame {
-        background: rgb(243, 240, 240);
-        box-shadow: ;
-      }
-      .reclame {
-        grid-column: 5/6;
-        grid-row: 5/7;
-        font-family:  Verdana;
-        text-align: center;
-      }
-      .footer {
-        grid-column: 1/7;
-        grid-row: 11/12;
-        border-top: solid 4px white;
-      }
-      #copyright {
-        font-size: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .socials {
-        display: flex;
-        align-items: flex-start;
-        
-      }
-    </style>
+    <link rel="stylesheet" href="Newspaper-Stylesheet.css">
   </head>
   <body>
     <main>
@@ -147,12 +53,7 @@
       </div>
       <div class="news1">
         <p id="text1">HTML Not Actually A Programming Language - World Is Shocked</p>
-        <img src= "https://kinsta.com/nl/wp-content/uploads/sites/7/2021/12/leren-html.png" 
-        alt="HTML"
-        width="300vw" 
-        height="auto"
-    
-        />
+        
       </div>
       
       <div class="news2">
@@ -177,7 +78,7 @@
       <div class="socials">
         <ol style="list-style:none;">
           <li>
-            <img src="2168281.png" alt="Facebook"
+            <img src="facebook.png" alt="Facebook"
             width="40px"/>
             <img src="twitter.png" alt="Twitter"
             width="40px"/>
