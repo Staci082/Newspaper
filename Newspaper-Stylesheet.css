@@ -116,7 +116,8 @@ h1 {
   font-family: impact;
   text-align: center;
   font-size: 2rem;
-  padding-bottom: 2vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .news1 {
   grid-column: 3/5;
@@ -149,6 +150,11 @@ h1 {
   display: flex;
   flex-direction: column;
 }
+.news3 > img {
+  width: 18vw;
+  height: 18vh;
+  object-fit: cover;
+}
 .news4 {
   grid-column: 5/6;
   grid-row: 4/8;
@@ -156,6 +162,7 @@ h1 {
   flex-direction: column;
 }
 .news4 > img {
+  position: absolute bottom;
   object-fit: cover;
 }
 p {
