@@ -12,7 +12,6 @@ body {
   grid-row: 1/2;
   border-bottom: solid 4px white;
 }
-
 h1 {
   font-family: Impact;
   font-size: 3vh;
@@ -197,7 +196,7 @@ p {
 .headline {
   padding: 25px 0px 25px 0px;
   font-family: Verdana;
-  font-size: 1.5vw;
+  font-size: 1rem;
   text-align: center;
   text-size-adjust: auto;
   display: flex;
@@ -290,9 +289,12 @@ p {
   .belowLine {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-rows: auto 0.5fr;
+    grid-template-rows: auto;
     background: #42efe1;
     margin: 10px;
+  }
+  .headline {
+    font-size: 2rem;
   }
 
   .latest-news {
@@ -303,9 +305,12 @@ p {
   #latest-news-title {
     font-family: impact;
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+  #latest-list {
+    font-size: 2rem;
   }
   .news1 {
     grid-column: 1/7;
