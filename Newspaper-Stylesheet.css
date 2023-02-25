@@ -120,7 +120,7 @@ padding-top: 20px;
   grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
   grid-auto-rows: 0.5fr;
   background: rgb(233, 228, 230);
-  padding top: 10px;
+  padding-top: 10px;
 }
 
 .latest-news {
