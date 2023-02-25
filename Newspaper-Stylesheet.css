@@ -201,7 +201,9 @@ text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
 }
 
 p {
+  cursor: pointer;
   margin: 10px 5px 20px 5px;
+
 }
 .headline {
   padding-top: 20px;
@@ -342,22 +344,22 @@ p {
   }
   .reclame {
     grid-column: 1/7;
-    grid-row: 6/8;
+    grid-row: 5/7;
   }
   .news3 {
     grid-column: 1/7;
-    grid-row: 8/9;
+    grid-row: 7/8;
   }
   .new3 > img {
     height: 100%;
   }
   .news4 {
     grid-column: 1/7;
-    grid-row: 10/12;
+    grid-row: 8/10;
   }
   .news5 {
     grid-column: 1/7;
-    grid-row: 12/14;
+    grid-row: 10/12;
   }
   /*footer*/
   .footer {
