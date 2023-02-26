@@ -38,15 +38,53 @@ padding-top: 20px;
 .kittycont {
   display: flex;
   justify-content: center;
-  background: #3BB4C1;
+  background:rgb(59, 180, 193);
   padding-top: 20px;
   border-bottom: white solid 4px;
+
 }
 .kitty {
   width: 25vw;
 }
 /*navigation */
 
+.searchbar {
+  text-align: center;
+  top: 4vh;
+  right: 4vw;
+  position: absolute;
+}
+
+input, button {
+  outline: none;
+  border: none;
+  border-radius: 0;
+  vertical-align: top;
+}
+button {
+  text-align: center;
+  height: 3vh;
+  width: 3vw;
+  background: white;
+  border-radius: 0 35px 35px 0;
+  color: rgb(170, 170, 170);
+  font-size: 1.4rem;
+}
+
+input[type="text"] {
+  border: none;
+  height: 3vh;
+  width: 9vw;
+  outline: none;
+  margin-left: 2vw;
+  padding-left: 2vw;
+  border-radius: 35px 0 0 35px;
+  color: rgb(110,110,110);
+  font-size: 1.6rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
 .menu {
   position: relative;
   display: flex;
@@ -131,7 +169,6 @@ padding-top: 20px;
 #latest-news-title {
   color: rgb(233, 228, 230);
   color: white;
-  background: #e8e8e8;
   text-shadow: -1px -1px 1px rgba(3, 3, 3, 0.1), 1px 1px 1px rgba(0,0,0,.5);
   font-family: "Rampart One";
   text-align: center;
